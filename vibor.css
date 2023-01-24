@@ -1,14 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700&display=swap");
-
-* {
-	margin: 0;
-	padding: 0;
-}
 .container {
 	width: 1000px;
 	display: flex;
 	flex-wrap:nowrap;
-	justify-content: space-around;
+	justify-content: center;
 	margin: auto;
 }
 .container .btn {
@@ -17,7 +12,7 @@
 	left: 0;
 	width: 250px;
 	height: 50px;
-	margin: 0;
+	margin: 25px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
