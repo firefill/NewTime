@@ -1,0 +1,56 @@
+.FAQ__container{
+    width: 80%;
+    height: 300px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    justify-content: center;
+    font-family: "Anton", sans-serif;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.FAQ__tittle{
+    font-size: 25px;
+    width: 100% ;
+    padding-bottom: 15px;
+}
+.FAQ__list{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    list-style: none;
+    
+}
+.FAQ__list-item{
+    width: 550px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid gray ;
+    transition: 0.5s;
+    margin-bottom:50px ;
+    margin-right: 20px;
+}
+.FAQ__leftcontainer{
+    overflow: hidden;
+}
+.FAQ__leftcontainer-tittle{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.FAQ__rightcontainer{
+    display: flex;
+    justify-content: right;
+    align-items: top;
+}
+.FAQ__rightcontainer-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(image/cross.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
