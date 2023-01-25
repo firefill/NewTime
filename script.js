@@ -18,3 +18,20 @@ $(function(){
     }
   });
 });
+
+window.onload = function() {
+
+  setTimeout(function() {
+
+      document.getElementById("fire").style.opacity = 0;
+      document.getElementById("windowdark").style.opacity = 0
+  }, 1200);
+
+};
+function boobs() {
+  document.getElementById("windowdark").style.width = 0
+  document.getElementById("fire").style.width = 0;
+  document.getElementById("windowdark").style.height = 0
+  document.getElementById("fire").style.height = 0;
+}
+setTimeout(boobs , 3800)
